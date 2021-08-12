@@ -18,6 +18,7 @@ nav {
     position: absolute;
     height: 51%;
     background-color: #4d4e50;
+    border-radius: 25px;
 }
 
     nav ul {
