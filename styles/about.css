@@ -25,7 +25,6 @@ nav {
         margin-left: 0;
         padding: 10px;
         display: inline;
-        border-radius: 25px;
     }
     /*Create styles for the anchor elements that are within the nav area to eliminate the default underline.*/
     nav a {
