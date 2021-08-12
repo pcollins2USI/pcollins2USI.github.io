@@ -1,0 +1,79 @@
+.box {
+    width: 11%;
+    height: 70px;
+    border: 1px solid #4d4e50;
+    margin-bottom: 2px;
+}
+.model {
+    width: 11%;
+    height: auto;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+nav {
+    float: left;
+    width: 11%;
+    position: absolute;
+    height: 51%;
+    background-color: #4d4e50;
+}
+
+    nav ul {
+        list-style-type: none;
+        margin-left: 0;
+        padding: 10px;
+        display: inline;
+    }
+    /*Create styles for the anchor elements that are within the nav area to eliminate the default underline.*/
+    nav a {
+        text-decoration: none; /*6*/
+        display: block;
+        padding: 14px 25px;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: solid;
+        border-left-style: none;
+        border-color: white;
+        border-bottom-width: 2px;
+        background-color: #4d4e50;
+    }
+
+        nav a:link {
+            color: black; /*7,8*/
+        }
+
+        nav a:visited {
+            color: white; /*7,8*/
+        }
+
+        nav a:hover {
+            color: white;
+            background-color: #2f7d36;
+        }
+main {
+    /* 	float: left; */
+    margin-left: 16%;
+    margin-right: auto;
+    margin-bottom: 2%;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-width: 5px;
+    border-color: white;
+    color: black;
+    font-family: Georgia, serif;
+    background-color: #585858; /*3*/
+    padding: 5%;
+}
+x-model {
+    animation: 5s spin linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotateY(1turn);
+    }
+}
